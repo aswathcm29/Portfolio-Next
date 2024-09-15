@@ -9,7 +9,7 @@ import Experience from "@/components/home/Experience";
 
 export default function Home() {
   return (
-    <Page currentPage="Home" meta={{ desc: "I'm a passionate web developer and designer coding beautiful websites and apps." }}>
+    <Page currentPage="Home" meta={{ desc: "Just get into my world of learnings and have a look at them" }}>
       <Hero />
       <div className="mt-20 space-y-32">
         <About/>
