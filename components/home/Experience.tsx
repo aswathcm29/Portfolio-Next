@@ -7,26 +7,30 @@ import {
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import React from 'react';
+import { FaUserGraduate } from "react-icons/fa6";
+import { FaLaptopCode } from "react-icons/fa6";
+import { HiMiniUsers } from "react-icons/hi2";
+
 
 
 export const experiencesData = [
     {
         date: 'November 2022 - 2026',
-        icon: <i className="fas fa-briefcase"></i>,
+        icon: <FaUserGraduate className="text-blue-900"></FaUserGraduate>,
         title: 'B.E CSE',
         location: 'Sri Eshwar College of Engineering',
         description: 'Learning stuffs with my buddies and working on projects',
     },
     {
         date: 'May - Jun 2024',
-        icon: <i className="fas fa-laptop-code"></i>,
+        icon: <FaLaptopCode className="text-blue-900"></FaLaptopCode>,
         title: 'Full Stack Developer',
         location: '1CloudHub',
         description: 'Built a complete TeleCRM using MERN and integrating twilio',
     },
     {
         date: 'Apr 2024 - Present',
-        icon: <i className="fas fa-graduation-cap"></i>,
+        icon: <HiMiniUsers className="text-blue-900"></HiMiniUsers>,
         title: 'Co Founder',
         location: 'Devoice',
         description: 'Indulged in making software revolutionary products',
