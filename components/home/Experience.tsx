@@ -29,11 +29,11 @@ export const experiencesData = [
         description: 'Built a complete TeleCRM using MERN and integrating twilio',
     },
     {
-        date: 'Apr 2024 - Present',
+        date: 'Jan 2025 - Present',
         icon: <HiMiniUsers className="text-blue-900"></HiMiniUsers>,
-        title: 'Co Founder',
-        location: 'Devoice',
-        description: 'Indulged in making software revolutionary products',
+        title: 'Web Development Organizer',
+        location: 'Google Developer Groups - On Campus SECE',
+        description: 'Leading the development of impactful software solutions and organizing technical sessions to foster innovation within the campus community.',
     },
 ];
 

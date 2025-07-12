@@ -3,7 +3,16 @@ import { Project } from "types";
 
 const projects: Project[] = [
   {
-    id: 0,
+  id: 0,
+  title: "GDG-Sync",
+  desc: "An event management platform for campus Google Developer Groups, featuring role-based access for admins and users, with event booking, caching, and admin management.",
+  img: "https://aswathcm.sirv.com/GDG-SYNC.png",
+  github: "https://github.com/aswathcm29/Gdg-sync",
+  link: "https://gdg-sync.vercel.app/",
+  tags: ["React", "Redux", "NodeJS", "Express", "MongoDB", "Redis", "Docker"],
+  },
+  {
+    id: 1,
     title: "JournalForge",
     desc: "Create your journals with an automated platform",
     img: "https://aswathcm.sirv.com/Journal.png",
@@ -12,7 +21,7 @@ const projects: Project[] = [
     tags: ["React","TailwindCSS", "NodeJS","Express","Groq"],
   },
   {
-    id: 1,
+    id: 2,
     title: "Effitrack",
     desc: "Track your personalised tech portfolio",
     img: "https://aswathcm.sirv.com/Effitrack.png",
@@ -20,7 +29,7 @@ const projects: Project[] = [
     tags: ["React", "TailwindCSS", "Redux", "NodeJS","ExpressJS"],
   },
   {
-    id: 2,
+    id: 3,
     title: "Leetcode Roaster",
     desc: "Get your leetcode profile roasted",
     img: "https://aswathcm.sirv.com/LeetcodeRoaster.png",
@@ -29,14 +38,12 @@ const projects: Project[] = [
     tags: ["React","TailwindCSS", "NodeJS","Express","Groq"],
   },
   {
-    id: 3,
+    id: 4,
     title: "Feedworks",
     desc: "Get your feedbacks provide actionable insights with AI",
-    img: "https://aswathcm.sirv.com/Feedworks.png",
+    img: "https://aswathcm.sirv.com/FeedWorks.png",
     tags: ["React","TailwindCSS", "NodeJS","Express","Groq"],
   },
-  
-  
 ];
 
 export const allTags = []

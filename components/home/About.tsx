@@ -15,7 +15,7 @@ const About = () => {
         <div className="w-40 h-40 md:w-60 md:h-60 rounded-full overflow-hidden shadow-lg">
           {isClient && (
             <img 
-              src="https://aswathcm.sirv.com/profile-pic%20(7).png" 
+              src="https://aswathcm.sirv.com/Google%20Profile.jpg" 
               alt="aswathcm29" 
               className="w-full h-full object-cover"
             />
